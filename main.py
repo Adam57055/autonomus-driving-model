@@ -77,5 +77,15 @@ for box, score, label in zip(
             f"class {label.item()}",
         )
 
+# Speed Limitation
+
+speed = 45
+
+if speed < 40:
+    print("Too slow")
+elif speed > 50:
+    print("Too fast")
+else:
+    print("Speed is as intended.")
 
 plt.show()
